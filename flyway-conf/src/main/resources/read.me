@@ -1,0 +1,7 @@
+#Запуск без использования файла конфигурации и плагина
+mvn flyway:info -Dflyway.user=sa -Dflyway.password= -Dflyway.schemas=dbase -Dflyway.url=jdbc:h2:mem:dbase
+#Запуск с использованием файла конфигурации
+mvn flyway:info -Dflyway.configFiles=flyway.conf
+
+mvn flyway:clean -Dflyway.configFiles=flyway.conf
+
