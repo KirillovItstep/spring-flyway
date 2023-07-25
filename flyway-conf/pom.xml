@@ -5,8 +5,6 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>flyway-conf</artifactId>
-    <packaging>pom</packaging>
-
     <properties>
         <java.version>13</java.version>
     </properties>
